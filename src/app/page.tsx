@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-8">
@@ -8,9 +10,14 @@ export default function Home() {
         <p className="text-xl text-gray-700 dark:text-gray-300 mb-8">
           Welcome to your Dutch learning journey! 🇳🇱
         </p>
-        <p className="text-lg text-gray-600 dark:text-gray-400">
-          Your new website is ready to be customized.
-        </p>
+        <div className="mt-8">
+          <Link
+            href="/common-sentences"
+            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-lg transition-colors text-lg"
+          >
+            View 500 Common Sentences
+          </Link>
+        </div>
       </main>
     </div>
   );
