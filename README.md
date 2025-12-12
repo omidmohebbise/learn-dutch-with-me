@@ -1,5 +1,8 @@
 # Learn Dutch with Me 🇳🇱
 
+[![Deploy to GitHub Pages](https://github.com/omidmohebbise/learn-dutch-with-me/actions/workflows/deploy.yml/badge.svg)](https://github.com/omidmohebbise/learn-dutch-with-me/actions/workflows/deploy.yml)
+[![CI](https://github.com/omidmohebbise/learn-dutch-with-me/actions/workflows/ci.yml/badge.svg)](https://github.com/omidmohebbise/learn-dutch-with-me/actions/workflows/ci.yml)
+
 Welcome to **dutchwithme.nl** - Your companion for learning the Dutch language!
 
 This is a [Next.js](https://nextjs.org/) project designed to help people learn Dutch in an interactive and engaging way.
